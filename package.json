@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "TODO Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DexterZelda/TODO.git"
+  },
+  "author": "David CHANTOISEAU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DexterZelda/TODO/issues"
+  },
+  "homepage": "https://github.com/DexterZelda/TODO#readme"
+}
