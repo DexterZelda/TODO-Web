@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="UTF-8" import="fr.eni.ejb.bean.ToDo"%>
 <!DOCTYPE html>
 <html>
@@ -38,7 +38,8 @@
 		<div>
 			A faire :&nbsp;
 			<textarea maxlength="500" name="text"
-				style="border-color: white; background-color: black; color: #0083FF"><%=todo.getLibelle()%></textarea>
+				style="border-color: white; background-color: black; color: #0083FF"
+				cols="50" rows="8"><%=todo.getLibelle()%></textarea>
 		</div>
 		<br> <input type="hidden" name="idToDo"
 			value="<%=request.getAttribute("idToDo")%>">

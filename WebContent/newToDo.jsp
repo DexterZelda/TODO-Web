@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -35,7 +35,8 @@
 		<div>
 			A faire :&nbsp;
 			<textarea maxlength="500" name="textToDo"
-				style="border-color: white; background-color: black; color: #0083FF"></textarea>
+				style="border-color: white; background-color: black; color: #0083FF"
+				cols="50" rows="8"></textarea>
 		</div>
 		<br> <input class="btn btn-success" type="submit"
 			value="Enregistrer" name="add" style="margin-bottom: 2px"> <input

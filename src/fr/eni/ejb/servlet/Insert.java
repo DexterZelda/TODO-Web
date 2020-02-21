@@ -15,6 +15,15 @@ import fr.eni.ejb.bean.ToDo;
 import fr.eni.ejb.bean.Utilisateur;
 import fr.eni.ejb.dal.UtilisateurDAL;
 
+/**
+ * Passage en UTF-8 jsp en POST car en GET cela fonctionne pour é = PB résolu OK
+ * dans les jsp
+ * 
+ * https://openclassrooms.com/forum/sujet/encodage-utf-8-caractere-dans-un-formulaire
+ * 
+ * @author dchantoi2019
+ *
+ */
 @WebServlet("/insert")
 public class Insert extends HttpServlet {
 	private static final long serialVersionUID = 1L;
